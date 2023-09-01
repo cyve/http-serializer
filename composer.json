@@ -1,0 +1,32 @@
+{
+    "name": "cyve/http-message-serializer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cyve",
+            "url": "https://cyve.github.io"
+        }
+    ],
+    "require": {
+        "symfony/serializer": "^6.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-factory-implementation": "*",
+        "psr/http-message": "^2.0"
+    },
+    "require-dev": {
+        "nyholm/psr7": "^1.8",
+        "phpunit/phpunit": "^10.3",
+        "symfony/var-dumper": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cyve\\HttpMessageSerializer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cyve\\HttpMessageSerializer\\Tests\\": "tests/"
+        }
+    }
+}
